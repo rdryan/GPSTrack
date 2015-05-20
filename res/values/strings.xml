@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tmpstr1">GPS infomation：</string>
+    <string name="tmpstr2"></string>
+    <string name="hello">Hello World, GPSPostion!</string>
+    <string name="app_name">GPS Track</string>
+    
+    
+</resources>

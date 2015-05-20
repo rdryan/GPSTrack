@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:orientation="vertical">
+	
+    <Button android:text="Where Am I" 
+    android:id="@+id/gpsButton" 
+    android:layout_gravity="fill" 
+    android:layout_width="fill_parent"
+    android:layout_height="80dip" >
+    </Button>
+    
+    <TextView
+    android:id="@+id/textView1" 
+    android:text="@string/tmpstr1" 
+    android:layout_width="fill_parent" 
+    android:layout_height="50dip">
+    </TextView>
+    
+    <LinearLayout 
+    android:id="@+id/linearLayout1" 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content">
+    
+    <TextView 
+    android:text="Longitude (经度): " 
+    android:id="@+id/lngLabel" 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content">
+    </TextView>
+    
+    <TextView     
+    android:id="@+id/lngText"
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content">
+    </TextView>   
+    </LinearLayout>
+    
+    <LinearLayout 
+    android:id="@+id/linearLayout2" 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content">
+    
+    <TextView 
+
+    android:text="Latitude (纬度): " 
+    android:id="@+id/latLabel"
+    android:layout_height="wrap_content"  
+    android:layout_width="wrap_content">
+    </TextView>
+    
+    <TextView 
+    android:id="@+id/latText"
+    android:layout_height="wrap_content"  
+    android:layout_width="wrap_content">
+    </TextView>
+       
+    </LinearLayout>
+    
+    <LinearLayout 
+    android:id="@+id/linearLayout3" 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content">
+    
+    <TextView 
+
+    android:text="Altitude (高度): " 
+    android:id="@+id/AltLabel"
+    android:layout_height="wrap_content"  
+    android:layout_width="wrap_content">
+    </TextView>
+    
+    <TextView 
+    android:id="@+id/altText"
+    android:layout_height="wrap_content"  
+    android:layout_width="wrap_content">
+    </TextView>
+       
+    </LinearLayout>
+		
+</LinearLayout>
